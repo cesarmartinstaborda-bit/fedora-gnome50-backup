@@ -21,8 +21,10 @@
     margin-bottom: 9px;
     padding: 0;
     border-radius: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.14);
+    /* Neutral optical layer over Blur My Shell's Dock-only background. */
+    background-color: rgba(255, 255, 255, 0.09) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.13);
     spacing: 6px; }
   #dashtodockContainer.bottom #dash .dash-separator {
     background-color: rgba(255, 255, 255, 0.1);

@@ -1,4 +1,4 @@
-0b70b6ed233ac683de3c7b777894a404872695d95c4bdfdc23594046f1ae9d0f  /home/cesar/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/stylesheet.css
+a2e1ff3c9cd08e23d98959c1c8cfebdcd27b1247e2473ca5ed56d211a5c05177  /home/cesar/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/stylesheet.css
 a2aad187dfd6bed506146ee2131a70251448b2e2a02014e7ad8900136382d330  /home/cesar/.local/share/gnome-shell/extensions/vibe-panel@pakovm/dynamic_panel.js
 09464a5ab1d8c34b27f60b8d4ff179c19486494ca9178be36017ae1711ea1d12  /home/cesar/.local/share/gnome-shell/extensions/vibe-panel@pakovm/stylesheet.css
 a7feea63075150803b9acead2a62592838279330b5fa5cca7365174ac9ca1dcf  /home/cesar/.local/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js

@@ -173,8 +173,8 @@ org.gnome.shell.extensions.dash-to-dock apply-custom-theme false
 org.gnome.shell.extensions.dash-to-dock apply-glossy-effect false
 org.gnome.shell.extensions.dash-to-dock autohide true
 org.gnome.shell.extensions.dash-to-dock autohide-in-fullscreen false
-org.gnome.shell.extensions.dash-to-dock background-color '#f2f4f7'
-org.gnome.shell.extensions.dash-to-dock background-opacity 0.17999999999999999
+org.gnome.shell.extensions.dash-to-dock background-color '#ffffff'
+org.gnome.shell.extensions.dash-to-dock background-opacity 0.089999999999999997
 org.gnome.shell.extensions.dash-to-dock bolt-support true
 org.gnome.shell.extensions.dash-to-dock click-action 'cycle-windows'
 org.gnome.shell.extensions.dash-to-dock custom-background-color true
@@ -251,7 +251,7 @@ org.gnome.shell.extensions.blur-my-shell debug false
 org.gnome.shell.extensions.blur-my-shell hacks-level 1
 org.gnome.shell.extensions.blur-my-shell noise-amount 0.0
 org.gnome.shell.extensions.blur-my-shell noise-lightness 0.0
-org.gnome.shell.extensions.blur-my-shell pipelines {'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000000'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <24>}>}>]>}, 'pipeline_dock_glass': {'name': <'Dock glass'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_dock_glass_blur'>, 'params': <{'radius': <24>, 'brightness': <0.84999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_dock_glass_corner'>, 'params': <{'radius': <24>}>}>]>}}
+org.gnome.shell.extensions.blur-my-shell pipelines {'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000000'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <24>}>}>]>}, 'pipeline_dock_glass': {'name': <'Dock glass'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_dock_glass_blur'>, 'params': <{'radius': <38>, 'brightness': <0.94999999999999996>}>}>, <{'type': <'corner'>, 'id': <'effect_dock_glass_corner'>, 'params': <{'radius': <24>}>}>]>}}
 org.gnome.shell.extensions.blur-my-shell rounded-blur-found false
 org.gnome.shell.extensions.blur-my-shell settings-version 2
 org.gnome.shell.extensions.blur-my-shell sigma 30
@@ -283,7 +283,7 @@ org.gnome.shell.extensions.blur-my-shell.applications whitelist @as []
 org.gnome.shell.extensions.blur-my-shell.coverflow-alt-tab blur true
 org.gnome.shell.extensions.blur-my-shell.coverflow-alt-tab pipeline 'pipeline_default'
 org.gnome.shell.extensions.blur-my-shell.dash-to-dock blur true
-org.gnome.shell.extensions.blur-my-shell.dash-to-dock brightness 0.84999999999999998
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock brightness 0.94999999999999996
 org.gnome.shell.extensions.blur-my-shell.dash-to-dock color (0.0, 0.0, 0.0, 0.0)
 org.gnome.shell.extensions.blur-my-shell.dash-to-dock corner-radius 18
 org.gnome.shell.extensions.blur-my-shell.dash-to-dock customize false
@@ -291,7 +291,7 @@ org.gnome.shell.extensions.blur-my-shell.dash-to-dock noise-amount 0.0
 org.gnome.shell.extensions.blur-my-shell.dash-to-dock noise-lightness 0.0
 org.gnome.shell.extensions.blur-my-shell.dash-to-dock override-background true
 org.gnome.shell.extensions.blur-my-shell.dash-to-dock pipeline 'pipeline_dock_glass'
-org.gnome.shell.extensions.blur-my-shell.dash-to-dock sigma 24
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock sigma 32
 org.gnome.shell.extensions.blur-my-shell.dash-to-dock static-blur true
 org.gnome.shell.extensions.blur-my-shell.dash-to-dock style-dash-to-dock 0
 org.gnome.shell.extensions.blur-my-shell.dash-to-dock unblur-in-overview false
@@ -578,4 +578,3 @@ org.gnome.nautilus.preferences thumbnail-limit uint64 50
 org.gnome.nautilus.window-state initial-size (890, 550)
 org.gnome.nautilus.window-state initial-size-file-chooser (890, 550)
 org.gnome.nautilus.window-state maximized false
-

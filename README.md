@@ -32,7 +32,7 @@ Existem cópias RPM de Dash to Dock 105 e Blur My Shell 72 em `/usr/share/gnome-
 
 ## Configuração visual principal
 
-Dock: posição `BOTTOM`, ícones de 54 px, `autohide=true`, `intellihide=true`, modo `ALL_WINDOWS`, transparência `FIXED`, opacidade 0,18, fundo `#f2f4f7`, borda/arredondamento/sombra locais no CSS. O pipeline Blur My Shell é `pipeline_dock_glass`, blur estático, raio 24, brilho 0,85, com override do fundo.
+Dock: posição `BOTTOM`, ícones de 54 px, `autohide=true`, `intellihide=true`, modo `ALL_WINDOWS`, transparência `FIXED`, camada neutra branca a 9%, margem inferior de 9 px, raio visual de 24 px, borda branca de 1 px a 12% e sombra `0 8px 24px` preta a 13%. O pipeline Blur My Shell preservado é `pipeline_dock_glass`, com blur estático, raio 38, brilho 0,95, `sigma=32` e override do fundo.
 
 Top Bar: Vibe Panel com transparência habilitada em 30%, ajustes de tema claro habilitados e cantos próprios desabilitados. Blur My Shell no painel está habilitado, brilho 0,88, sigma 24 e background override; a alteração manual do Vibe Panel mantém a transparência com janela maximizada.
 

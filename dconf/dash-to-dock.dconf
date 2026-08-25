@@ -2,8 +2,8 @@
 animation-time=0.10000000000000001
 apply-glossy-effect=false
 autohide=true
-background-color='#f2f4f7'
-background-opacity=0.17999999999999999
+background-color='#ffffff'
+background-opacity=0.089999999999999997
 custom-background-color=true
 custom-theme-customize-running-dots=true
 custom-theme-running-dots-border-color='#000000'
