@@ -1,0 +1,29 @@
+--- /home/cesar/.local/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js.pre-glass-backup	2026-05-30 22:17:40.000000000 -0300
++++ /home/cesar/.local/share/gnome-shell/extensions/arcmenu@arcmenu.com/menuButton.js	2026-08-25 15:26:05.581395605 -0300
+@@ -700,6 +700,15 @@
+             enabled: false,
+         });
+         this._boxPointer.add_effect_with_name('dim', this._dimEffect);
++
++        // ArcMenu-only glass: blur the scene behind this popup while keeping
++        // the menu contents, labels, and icons on the sharp foreground layer.
++        this._glassBlurEffect = new Shell.BlurEffect({
++            radius: 48,
++            brightness: 0.88,
++            mode: Shell.BlurMode.BACKGROUND,
++        });
++        this._boxPointer.add_effect_with_name('arcmenu-glass-blur', this._glassBlurEffect);
+     }
+ 
+     _onCapturedEvent(actor, event) {
+@@ -725,8 +734,10 @@
+     }
+ 
+     destroy() {
++        this._boxPointer.remove_effect_by_name('arcmenu-glass-blur');
+         this._boxPointer.remove_effect_by_name('dim');
+         super.destroy();
++        this._glassBlurEffect = null;
+         this._dimEffect = null;
+         this._menuButton = null;
+     }

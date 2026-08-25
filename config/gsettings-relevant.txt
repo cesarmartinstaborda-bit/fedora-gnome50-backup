@@ -1,0 +1,581 @@
+### SCHEMA org.gnome.desktop.interface
+org.gnome.desktop.interface accent-color 'blue'
+org.gnome.desktop.interface avatar-directories @as []
+org.gnome.desktop.interface can-change-accels false
+org.gnome.desktop.interface clock-format '24h'
+org.gnome.desktop.interface clock-show-date true
+org.gnome.desktop.interface clock-show-seconds false
+org.gnome.desktop.interface clock-show-weekday false
+org.gnome.desktop.interface color-scheme 'default'
+org.gnome.desktop.interface cursor-blink true
+org.gnome.desktop.interface cursor-blink-time 1200
+org.gnome.desktop.interface cursor-blink-timeout 10
+org.gnome.desktop.interface cursor-size 24
+org.gnome.desktop.interface cursor-theme 'Adwaita'
+org.gnome.desktop.interface document-font-name 'Adwaita Sans 12'
+org.gnome.desktop.interface enable-animations true
+org.gnome.desktop.interface enable-hot-corners false
+org.gnome.desktop.interface font-antialiasing 'grayscale'
+org.gnome.desktop.interface font-hinting 'slight'
+org.gnome.desktop.interface font-name 'Adwaita Sans 11'
+org.gnome.desktop.interface font-rendering 'automatic'
+org.gnome.desktop.interface font-rgba-order 'rgb'
+org.gnome.desktop.interface gtk-color-palette 'black:white:gray50:red:purple:blue:light blue:green:yellow:orange:lavender:brown:goldenrod4:dodger blue:pink:light green:gray10:gray30:gray75:gray90'
+org.gnome.desktop.interface gtk-color-scheme ''
+org.gnome.desktop.interface gtk-enable-primary-paste false
+org.gnome.desktop.interface gtk-im-module ''
+org.gnome.desktop.interface gtk-im-preedit-style 'callback'
+org.gnome.desktop.interface gtk-im-status-style 'callback'
+org.gnome.desktop.interface gtk-key-theme 'Default'
+org.gnome.desktop.interface gtk-theme 'Adwaita'
+org.gnome.desktop.interface gtk-timeout-initial 200
+org.gnome.desktop.interface gtk-timeout-repeat 20
+org.gnome.desktop.interface icon-theme 'Adwaita'
+org.gnome.desktop.interface locate-pointer false
+org.gnome.desktop.interface menubar-accel 'F10'
+org.gnome.desktop.interface menubar-detachable false
+org.gnome.desktop.interface menus-have-tearoff false
+org.gnome.desktop.interface monospace-font-name 'Adwaita Mono 11'
+org.gnome.desktop.interface overlay-scrolling true
+org.gnome.desktop.interface scaling-factor uint32 0
+org.gnome.desktop.interface show-battery-percentage true
+org.gnome.desktop.interface text-scaling-factor 1.0
+org.gnome.desktop.interface toolbar-detachable false
+org.gnome.desktop.interface toolbar-icons-size 'large'
+org.gnome.desktop.interface toolbar-style 'both-horiz'
+org.gnome.desktop.interface toolkit-accessibility false
+
+### SCHEMA org.gnome.desktop.wm.preferences
+org.gnome.desktop.wm.preferences action-double-click-titlebar 'toggle-maximize'
+org.gnome.desktop.wm.preferences action-middle-click-titlebar 'none'
+org.gnome.desktop.wm.preferences action-right-click-titlebar 'menu'
+org.gnome.desktop.wm.preferences audible-bell true
+org.gnome.desktop.wm.preferences auto-raise false
+org.gnome.desktop.wm.preferences auto-raise-delay 500
+org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,maximize,close'
+org.gnome.desktop.wm.preferences disable-workarounds false
+org.gnome.desktop.wm.preferences focus-mode 'click'
+org.gnome.desktop.wm.preferences focus-new-windows 'smart'
+org.gnome.desktop.wm.preferences mouse-button-modifier '<Super>'
+org.gnome.desktop.wm.preferences num-workspaces 4
+org.gnome.desktop.wm.preferences raise-on-click true
+org.gnome.desktop.wm.preferences resize-with-right-button false
+org.gnome.desktop.wm.preferences theme 'Adwaita'
+org.gnome.desktop.wm.preferences titlebar-font 'Adwaita Sans Bold 11'
+org.gnome.desktop.wm.preferences titlebar-uses-system-font true
+org.gnome.desktop.wm.preferences visual-bell false
+org.gnome.desktop.wm.preferences visual-bell-type 'fullscreen-flash'
+org.gnome.desktop.wm.preferences workspace-names @as []
+
+### SCHEMA org.gnome.desktop.background
+org.gnome.desktop.background color-shading-type 'solid'
+org.gnome.desktop.background picture-opacity 100
+org.gnome.desktop.background picture-options 'zoom'
+org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/f44/default/f44-01-day.jxl'
+org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/f44/default/f44-01-night.jxl'
+org.gnome.desktop.background primary-color '#023c88'
+org.gnome.desktop.background secondary-color '#5789ca'
+org.gnome.desktop.background show-desktop-icons false
+
+### SCHEMA org.gnome.shell
+org.gnome.shell allow-extension-installation true
+org.gnome.shell always-show-log-out false
+org.gnome.shell app-picker-layout [{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Weather.desktop': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'org.gnome.Maps.desktop': <{'position': <3>}>, 'org.gnome.SimpleScan.desktop': <{'position': <4>}>, 'org.gnome.Settings.desktop': <{'position': <5>}>, 'org.gnome.Extensions.desktop': <{'position': <6>}>, 'org.gnome.Boxes.desktop': <{'position': <7>}>, 'org.gnome.Showtime.desktop': <{'position': <8>}>, 'org.gnome.Snapshot.desktop': <{'position': <9>}>, 'org.fedoraproject.MediaWriter.desktop': <{'position': <10>}>, 'org.gnome.Characters.desktop': <{'position': <11>}>, 'Utilities': <{'position': <12>}>, 'System': <{'position': <13>}>, 'libreoffice-calc.desktop': <{'position': <14>}>, 'org.gnome.Tour.desktop': <{'position': <15>}>, 'org.gnome.Yelp.desktop': <{'position': <16>}>, 'libreoffice-impress.desktop': <{'position': <17>}>, 'libreoffice-writer.desktop': <{'position': <18>}>}]
+org.gnome.shell command-history @as []
+org.gnome.shell development-tools true
+org.gnome.shell disable-extension-version-validation false
+org.gnome.shell disable-user-extensions false
+org.gnome.shell disabled-extensions @as []
+org.gnome.shell enabled-extensions ['background-logo@fedorahosted.org', 'blur-my-shell@aunetx', 'dash-to-dock@micxgx.gmail.com', 'vibe-panel@pakovm', 'arcmenu@arcmenu.com']
+org.gnome.shell favorite-apps ['org.gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Software.desktop', 'org.gnome.Calculator.desktop']
+org.gnome.shell last-selected-power-profile 'power-saver'
+org.gnome.shell looking-glass-history @as []
+org.gnome.shell remember-mount-password false
+org.gnome.shell welcome-dialog-last-shown-version '50.0'
+org.gnome.shell.app-switcher current-workspace-only false
+org.gnome.shell.keybindings focus-active-notification ['<Super>n']
+org.gnome.shell.keybindings open-new-window-application-1 ['<Super><Control>1']
+org.gnome.shell.keybindings open-new-window-application-2 ['<Super><Control>2']
+org.gnome.shell.keybindings open-new-window-application-3 ['<Super><Control>3']
+org.gnome.shell.keybindings open-new-window-application-4 ['<Super><Control>4']
+org.gnome.shell.keybindings open-new-window-application-5 ['<Super><Control>5']
+org.gnome.shell.keybindings open-new-window-application-6 ['<Super><Control>6']
+org.gnome.shell.keybindings open-new-window-application-7 ['<Super><Control>7']
+org.gnome.shell.keybindings open-new-window-application-8 ['<Super><Control>8']
+org.gnome.shell.keybindings open-new-window-application-9 ['<Super><Control>9']
+org.gnome.shell.keybindings screen-brightness-cycle ['XF86MonBrightnessCycle']
+org.gnome.shell.keybindings screen-brightness-cycle-monitor ['<Shift>XF86MonBrightnessCycle']
+org.gnome.shell.keybindings screen-brightness-down ['XF86MonBrightnessDown']
+org.gnome.shell.keybindings screen-brightness-down-monitor ['<Shift>XF86MonBrightnessDown']
+org.gnome.shell.keybindings screen-brightness-up ['XF86MonBrightnessUp']
+org.gnome.shell.keybindings screen-brightness-up-monitor ['<Shift>XF86MonBrightnessUp']
+org.gnome.shell.keybindings screenshot ['<Shift>Print']
+org.gnome.shell.keybindings screenshot-window ['<Alt>Print']
+org.gnome.shell.keybindings shift-overview-down ['<Super><Alt>Down']
+org.gnome.shell.keybindings shift-overview-up ['<Super><Alt>Up']
+org.gnome.shell.keybindings show-screen-recording-ui ['<Ctrl><Shift><Alt>R']
+org.gnome.shell.keybindings show-screenshot-ui ['Print']
+org.gnome.shell.keybindings switch-to-application-1 ['<Super>1']
+org.gnome.shell.keybindings switch-to-application-2 ['<Super>2']
+org.gnome.shell.keybindings switch-to-application-3 ['<Super>3']
+org.gnome.shell.keybindings switch-to-application-4 ['<Super>4']
+org.gnome.shell.keybindings switch-to-application-5 ['<Super>5']
+org.gnome.shell.keybindings switch-to-application-6 ['<Super>6']
+org.gnome.shell.keybindings switch-to-application-7 ['<Super>7']
+org.gnome.shell.keybindings switch-to-application-8 ['<Super>8']
+org.gnome.shell.keybindings switch-to-application-9 ['<Super>9']
+org.gnome.shell.keybindings toggle-application-view ['<Super>a']
+org.gnome.shell.keybindings toggle-message-tray ['<Super>v', '<Super>m']
+org.gnome.shell.keybindings toggle-overview @as []
+org.gnome.shell.keybindings toggle-quick-settings ['<Super>s']
+org.gnome.shell.weather automatic-location false
+org.gnome.shell.weather locations @av []
+org.gnome.shell.window-switcher app-icon-mode 'both'
+org.gnome.shell.window-switcher current-workspace-only true
+org.gnome.shell.world-clocks locations @av []
+
+### SCHEMA org.gnome.shell.extensions.dash-to-dock
+org.gnome.shell.extensions.dash-to-dock activate-single-window true
+org.gnome.shell.extensions.dash-to-dock always-center-icons false
+org.gnome.shell.extensions.dash-to-dock animation-time 0.10000000000000001
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-1 ['<Ctrl><Super>1']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-10 ['<Ctrl><Super>0']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-2 ['<Ctrl><Super>2']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-3 ['<Ctrl><Super>3']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-4 ['<Ctrl><Super>4']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-5 ['<Ctrl><Super>5']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-6 ['<Ctrl><Super>6']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-7 ['<Ctrl><Super>7']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-8 ['<Ctrl><Super>8']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-9 ['<Ctrl><Super>9']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-1 ['<Super>1']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-10 ['<Super>0']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-2 ['<Super>2']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-3 ['<Super>3']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-4 ['<Super>4']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-5 ['<Super>5']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-6 ['<Super>6']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-7 ['<Super>7']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-8 ['<Super>8']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-9 ['<Super>9']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-1 ['<Shift><Super>1']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-10 ['<Shift><Super>0']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-2 ['<Shift><Super>2']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-3 ['<Shift><Super>3']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-4 ['<Shift><Super>4']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-5 ['<Shift><Super>5']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-6 ['<Shift><Super>6']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-7 ['<Shift><Super>7']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-8 ['<Shift><Super>8']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-9 ['<Shift><Super>9']
+org.gnome.shell.extensions.dash-to-dock application-counter-overrides-notifications true
+org.gnome.shell.extensions.dash-to-dock apply-custom-theme false
+org.gnome.shell.extensions.dash-to-dock apply-glossy-effect false
+org.gnome.shell.extensions.dash-to-dock autohide true
+org.gnome.shell.extensions.dash-to-dock autohide-in-fullscreen false
+org.gnome.shell.extensions.dash-to-dock background-color '#f2f4f7'
+org.gnome.shell.extensions.dash-to-dock background-opacity 0.17999999999999999
+org.gnome.shell.extensions.dash-to-dock bolt-support true
+org.gnome.shell.extensions.dash-to-dock click-action 'cycle-windows'
+org.gnome.shell.extensions.dash-to-dock custom-background-color true
+org.gnome.shell.extensions.dash-to-dock custom-theme-customize-running-dots true
+org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-border-color '#000000'
+org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-border-width 0
+org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-color '#f5f7fa'
+org.gnome.shell.extensions.dash-to-dock custom-theme-shrink false
+org.gnome.shell.extensions.dash-to-dock customize-alphas false
+org.gnome.shell.extensions.dash-to-dock dance-urgent-applications true
+org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 54
+org.gnome.shell.extensions.dash-to-dock default-windows-preview-to-open false
+org.gnome.shell.extensions.dash-to-dock disable-overview-on-startup false
+org.gnome.shell.extensions.dash-to-dock dock-fixed false
+org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
+org.gnome.shell.extensions.dash-to-dock extend-height false
+org.gnome.shell.extensions.dash-to-dock force-straight-corner false
+org.gnome.shell.extensions.dash-to-dock height-fraction 0.90000000000000002
+org.gnome.shell.extensions.dash-to-dock hide-delay 0.050000000000000003
+org.gnome.shell.extensions.dash-to-dock hide-tooltip false
+org.gnome.shell.extensions.dash-to-dock hot-keys true
+org.gnome.shell.extensions.dash-to-dock hotkeys-overlay true
+org.gnome.shell.extensions.dash-to-dock hotkeys-show-dock true
+org.gnome.shell.extensions.dash-to-dock icon-size-fixed true
+org.gnome.shell.extensions.dash-to-dock intellihide true
+org.gnome.shell.extensions.dash-to-dock intellihide-mode 'ALL_WINDOWS'
+org.gnome.shell.extensions.dash-to-dock isolate-locations true
+org.gnome.shell.extensions.dash-to-dock isolate-monitors false
+org.gnome.shell.extensions.dash-to-dock isolate-workspaces false
+org.gnome.shell.extensions.dash-to-dock manualhide false
+org.gnome.shell.extensions.dash-to-dock max-alpha 0.80000000000000004
+org.gnome.shell.extensions.dash-to-dock middle-click-action 'launch'
+org.gnome.shell.extensions.dash-to-dock min-alpha 0.20000000000000001
+org.gnome.shell.extensions.dash-to-dock minimize-shift true
+org.gnome.shell.extensions.dash-to-dock multi-monitor false
+org.gnome.shell.extensions.dash-to-dock preferred-monitor -2
+org.gnome.shell.extensions.dash-to-dock preferred-monitor-by-connector 'primary'
+org.gnome.shell.extensions.dash-to-dock pressure-threshold 100.0
+org.gnome.shell.extensions.dash-to-dock preview-size-scale 0.0
+org.gnome.shell.extensions.dash-to-dock require-pressure-to-show false
+org.gnome.shell.extensions.dash-to-dock running-indicator-dominant-color false
+org.gnome.shell.extensions.dash-to-dock running-indicator-style 'DOTS'
+org.gnome.shell.extensions.dash-to-dock scroll-action 'do-nothing'
+org.gnome.shell.extensions.dash-to-dock scroll-switch-workspace true
+org.gnome.shell.extensions.dash-to-dock scroll-to-focused-application true
+org.gnome.shell.extensions.dash-to-dock shift-click-action 'minimize'
+org.gnome.shell.extensions.dash-to-dock shift-middle-click-action 'launch'
+org.gnome.shell.extensions.dash-to-dock shortcut ['<Super>q']
+org.gnome.shell.extensions.dash-to-dock shortcut-text '<Super>q'
+org.gnome.shell.extensions.dash-to-dock shortcut-timeout 2.0
+org.gnome.shell.extensions.dash-to-dock show-apps-always-in-the-edge true
+org.gnome.shell.extensions.dash-to-dock show-apps-at-top false
+org.gnome.shell.extensions.dash-to-dock show-delay 0.0
+org.gnome.shell.extensions.dash-to-dock show-dock-urgent-notify true
+org.gnome.shell.extensions.dash-to-dock show-favorites true
+org.gnome.shell.extensions.dash-to-dock show-icons-emblems true
+org.gnome.shell.extensions.dash-to-dock show-icons-notifications-counter true
+org.gnome.shell.extensions.dash-to-dock show-mounts true
+org.gnome.shell.extensions.dash-to-dock show-mounts-network false
+org.gnome.shell.extensions.dash-to-dock show-mounts-only-mounted true
+org.gnome.shell.extensions.dash-to-dock show-running true
+org.gnome.shell.extensions.dash-to-dock show-show-apps-button true
+org.gnome.shell.extensions.dash-to-dock show-trash true
+org.gnome.shell.extensions.dash-to-dock show-windows-preview true
+org.gnome.shell.extensions.dash-to-dock transparency-mode 'FIXED'
+org.gnome.shell.extensions.dash-to-dock unity-backlit-items false
+org.gnome.shell.extensions.dash-to-dock workspace-agnostic-urgent-windows true
+
+### SCHEMA org.gnome.shell.extensions.blur-my-shell
+org.gnome.shell.extensions.blur-my-shell brightness 0.59999999999999998
+org.gnome.shell.extensions.blur-my-shell color (0.0, 0.0, 0.0, 0.0)
+org.gnome.shell.extensions.blur-my-shell color-and-noise true
+org.gnome.shell.extensions.blur-my-shell debug false
+org.gnome.shell.extensions.blur-my-shell hacks-level 1
+org.gnome.shell.extensions.blur-my-shell noise-amount 0.0
+org.gnome.shell.extensions.blur-my-shell noise-lightness 0.0
+org.gnome.shell.extensions.blur-my-shell pipelines {'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000000'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <24>}>}>]>}, 'pipeline_dock_glass': {'name': <'Dock glass'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_dock_glass_blur'>, 'params': <{'radius': <24>, 'brightness': <0.84999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_dock_glass_corner'>, 'params': <{'radius': <24>}>}>]>}}
+org.gnome.shell.extensions.blur-my-shell rounded-blur-found false
+org.gnome.shell.extensions.blur-my-shell settings-version 2
+org.gnome.shell.extensions.blur-my-shell sigma 30
+org.gnome.shell.extensions.blur-my-shell.appfolder blur false
+org.gnome.shell.extensions.blur-my-shell.appfolder brightness 0.59999999999999998
+org.gnome.shell.extensions.blur-my-shell.appfolder color (0.0, 0.0, 0.0, 0.0)
+org.gnome.shell.extensions.blur-my-shell.appfolder customize false
+org.gnome.shell.extensions.blur-my-shell.appfolder noise-amount 0.0
+org.gnome.shell.extensions.blur-my-shell.appfolder noise-lightness 0.0
+org.gnome.shell.extensions.blur-my-shell.appfolder sigma 30
+org.gnome.shell.extensions.blur-my-shell.appfolder style-dialogs 1
+org.gnome.shell.extensions.blur-my-shell.applications blacklist ['Plank', 'com.desktop.ding', 'Conky']
+org.gnome.shell.extensions.blur-my-shell.applications blur false
+org.gnome.shell.extensions.blur-my-shell.applications blur-on-overview false
+org.gnome.shell.extensions.blur-my-shell.applications brightness 1.0
+org.gnome.shell.extensions.blur-my-shell.applications color (0.0, 0.0, 0.0, 0.0)
+org.gnome.shell.extensions.blur-my-shell.applications corner-radius 15
+org.gnome.shell.extensions.blur-my-shell.applications corner-when-maximized false
+org.gnome.shell.extensions.blur-my-shell.applications customize true
+org.gnome.shell.extensions.blur-my-shell.applications dynamic-opacity true
+org.gnome.shell.extensions.blur-my-shell.applications enable-all false
+org.gnome.shell.extensions.blur-my-shell.applications noise-amount 0.0
+org.gnome.shell.extensions.blur-my-shell.applications noise-lightness 0.0
+org.gnome.shell.extensions.blur-my-shell.applications opacity 215
+org.gnome.shell.extensions.blur-my-shell.applications pipeline 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.applications sigma 30
+org.gnome.shell.extensions.blur-my-shell.applications static-blur false
+org.gnome.shell.extensions.blur-my-shell.applications whitelist @as []
+org.gnome.shell.extensions.blur-my-shell.coverflow-alt-tab blur true
+org.gnome.shell.extensions.blur-my-shell.coverflow-alt-tab pipeline 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock blur true
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock brightness 0.84999999999999998
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock color (0.0, 0.0, 0.0, 0.0)
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock corner-radius 18
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock customize false
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock noise-amount 0.0
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock noise-lightness 0.0
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock override-background true
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock pipeline 'pipeline_dock_glass'
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock sigma 24
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock static-blur true
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock style-dash-to-dock 0
+org.gnome.shell.extensions.blur-my-shell.dash-to-dock unblur-in-overview false
+org.gnome.shell.extensions.blur-my-shell.dash-to-panel blur-original-panel true
+org.gnome.shell.extensions.blur-my-shell.hidetopbar compatibility false
+org.gnome.shell.extensions.blur-my-shell.lockscreen blur false
+org.gnome.shell.extensions.blur-my-shell.lockscreen brightness 0.59999999999999998
+org.gnome.shell.extensions.blur-my-shell.lockscreen color (0.0, 0.0, 0.0, 0.0)
+org.gnome.shell.extensions.blur-my-shell.lockscreen customize false
+org.gnome.shell.extensions.blur-my-shell.lockscreen noise-amount 0.0
+org.gnome.shell.extensions.blur-my-shell.lockscreen noise-lightness 0.0
+org.gnome.shell.extensions.blur-my-shell.lockscreen pipeline 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.lockscreen sigma 30
+org.gnome.shell.extensions.blur-my-shell.overview blur false
+org.gnome.shell.extensions.blur-my-shell.overview brightness 0.59999999999999998
+org.gnome.shell.extensions.blur-my-shell.overview color (0.0, 0.0, 0.0, 0.0)
+org.gnome.shell.extensions.blur-my-shell.overview customize false
+org.gnome.shell.extensions.blur-my-shell.overview noise-amount 0.0
+org.gnome.shell.extensions.blur-my-shell.overview noise-lightness 0.0
+org.gnome.shell.extensions.blur-my-shell.overview pipeline 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.overview sigma 30
+org.gnome.shell.extensions.blur-my-shell.overview style-components 1
+org.gnome.shell.extensions.blur-my-shell.panel blur true
+org.gnome.shell.extensions.blur-my-shell.panel brightness 0.88
+org.gnome.shell.extensions.blur-my-shell.panel color (0.93999999999999995, 0.95999999999999996, 1.0, 0.080000000000000002)
+org.gnome.shell.extensions.blur-my-shell.panel corner-radius 0
+org.gnome.shell.extensions.blur-my-shell.panel customize true
+org.gnome.shell.extensions.blur-my-shell.panel force-light-text true
+org.gnome.shell.extensions.blur-my-shell.panel noise-amount 0.0
+org.gnome.shell.extensions.blur-my-shell.panel noise-lightness 0.0
+org.gnome.shell.extensions.blur-my-shell.panel override-background true
+org.gnome.shell.extensions.blur-my-shell.panel override-background-dynamically false
+org.gnome.shell.extensions.blur-my-shell.panel pipeline 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.panel sigma 24
+org.gnome.shell.extensions.blur-my-shell.panel static-blur false
+org.gnome.shell.extensions.blur-my-shell.panel style-panel 0
+org.gnome.shell.extensions.blur-my-shell.panel unblur-in-overview true
+org.gnome.shell.extensions.blur-my-shell.screenshot blur false
+org.gnome.shell.extensions.blur-my-shell.screenshot brightness 0.59999999999999998
+org.gnome.shell.extensions.blur-my-shell.screenshot color (0.0, 0.0, 0.0, 0.0)
+org.gnome.shell.extensions.blur-my-shell.screenshot customize false
+org.gnome.shell.extensions.blur-my-shell.screenshot noise-amount 0.0
+org.gnome.shell.extensions.blur-my-shell.screenshot noise-lightness 0.0
+org.gnome.shell.extensions.blur-my-shell.screenshot pipeline 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.screenshot sigma 30
+org.gnome.shell.extensions.blur-my-shell.window-list blur false
+org.gnome.shell.extensions.blur-my-shell.window-list brightness 0.59999999999999998
+org.gnome.shell.extensions.blur-my-shell.window-list color (0.0, 0.0, 0.0, 0.0)
+org.gnome.shell.extensions.blur-my-shell.window-list customize false
+org.gnome.shell.extensions.blur-my-shell.window-list noise-amount 0.0
+org.gnome.shell.extensions.blur-my-shell.window-list noise-lightness 0.0
+org.gnome.shell.extensions.blur-my-shell.window-list pipeline 'pipeline_default'
+org.gnome.shell.extensions.blur-my-shell.window-list sigma 30
+
+### SCHEMA org.gnome.shell.extensions.arcmenu
+org.gnome.shell.extensions.arcmenu activate-on-hover false
+org.gnome.shell.extensions.arcmenu activate-on-launch false
+org.gnome.shell.extensions.arcmenu all-apps-button-action 'Categories_List'
+org.gnome.shell.extensions.arcmenu application-shortcuts [{'id': 'ArcMenu_Software', 'name': 'Software'}, {'id': 'org.gnome.Settings.desktop'}, {'id': 'org.gnome.tweaks.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'ArcMenu_ActivitiesOverview', 'name': 'Activities Overview', 'icon': 'view-fullscreen-symbolic'}]
+org.gnome.shell.extensions.arcmenu apps-show-extra-details false
+org.gnome.shell.extensions.arcmenu apps-show-generic-names false
+org.gnome.shell.extensions.arcmenu arcmenu-extra-categories-links [(0, false), (1, false), (2, false), (3, false), (4, false)]
+org.gnome.shell.extensions.arcmenu arcmenu-extra-categories-links-location 'Bottom'
+org.gnome.shell.extensions.arcmenu arcmenu-hotkey ['Super_L']
+org.gnome.shell.extensions.arcmenu arcmenu-hotkey-overlay-key-enabled true
+org.gnome.shell.extensions.arcmenu arcmenu-layout-max-frequent-apps 8
+org.gnome.shell.extensions.arcmenu avatar-style 'Round'
+org.gnome.shell.extensions.arcmenu az-layout-extra-shortcuts [{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'org.gnome.Settings.desktop'}]
+org.gnome.shell.extensions.arcmenu az-layout-max-frequent-apps 20
+org.gnome.shell.extensions.arcmenu az-layout-merge-panels false
+org.gnome.shell.extensions.arcmenu brisk-layout-extra-shortcuts [{'id': 'ArcMenu_Software', 'name': 'Software'}, {'id': 'org.gnome.Settings.desktop'}]
+org.gnome.shell.extensions.arcmenu button-item-icon-size 'Default'
+org.gnome.shell.extensions.arcmenu category-icon-type 'Symbolic'
+org.gnome.shell.extensions.arcmenu context-menu-items [{'id': 'org.gnome.Extensions.desktop'}, {'id': 'ArcMenu_Settings', 'name': 'ArcMenu Settings', 'icon': 'ArcMenu_ArcMenuIcon'}, {'id': 'ArcMenu_PanelExtensionSettings', 'name': 'Panel Extension Settings', 'icon': 'application-x-addon-symbolic'}, {'id': 'ArcMenu_Separator', 'name': 'Separator', 'icon': 'list-remove-symbolic'}, {'id': 'ArcMenu_PowerOptions', 'name': 'Power Options', 'icon': 'system-shutdown-symbolic'}, {'id': 'ArcMenu_ActivitiesOverview', 'name': 'Activities Overview', 'icon': 'view-fullscreen-symbolic'}, {'id': 'ArcMenu_ShowDesktop', 'name': 'Show Desktop', 'icon': 'computer-symbolic'}]
+org.gnome.shell.extensions.arcmenu custom-grid-icon-size {'width': 108, 'height': 108, 'iconSize': 62}
+org.gnome.shell.extensions.arcmenu dash-to-panel-standalone false
+org.gnome.shell.extensions.arcmenu default-menu-view 'Pinned_Apps'
+org.gnome.shell.extensions.arcmenu default-menu-view-az 'Pinned_Apps'
+org.gnome.shell.extensions.arcmenu default-menu-view-redmond 'All_Programs'
+org.gnome.shell.extensions.arcmenu default-menu-view-runner 'Default'
+org.gnome.shell.extensions.arcmenu default-menu-view-tognee 'Categories_List'
+org.gnome.shell.extensions.arcmenu directory-shortcuts [{'id': 'ArcMenu_Home', 'name': 'Home', 'icon': 'ArcMenu_Home'}, {'id': 'ArcMenu_Documents', 'name': 'Documents', 'icon': 'ArcMenu_Documents'}, {'id': 'ArcMenu_Downloads', 'name': 'Downloads', 'icon': 'ArcMenu_Downloads'}, {'id': 'ArcMenu_Music', 'name': 'Music', 'icon': 'ArcMenu_Music'}, {'id': 'ArcMenu_Pictures', 'name': 'Pictures', 'icon': 'ArcMenu_Pictures'}, {'id': 'ArcMenu_Videos', 'name': 'Videos', 'icon': 'ArcMenu_Videos'}]
+org.gnome.shell.extensions.arcmenu eleven-layout-extra-shortcuts [{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'org.gnome.Settings.desktop'}]
+org.gnome.shell.extensions.arcmenu eleven-show-frequent-apps true
+org.gnome.shell.extensions.arcmenu enable-activities-shortcut false
+org.gnome.shell.extensions.arcmenu enable-clock-widget-raven true
+org.gnome.shell.extensions.arcmenu enable-clock-widget-unity false
+org.gnome.shell.extensions.arcmenu enable-horizontal-flip false
+org.gnome.shell.extensions.arcmenu enable-unity-homescreen true
+org.gnome.shell.extensions.arcmenu enable-weather-widget-raven true
+org.gnome.shell.extensions.arcmenu enable-weather-widget-unity false
+org.gnome.shell.extensions.arcmenu extra-categories [(3, true), (2, true), (0, false), (1, false), (4, false)]
+org.gnome.shell.extensions.arcmenu force-menu-location 'Off'
+org.gnome.shell.extensions.arcmenu gnome-dash-show-applications false
+org.gnome.shell.extensions.arcmenu group-apps-alphabetically-grid-layouts false
+org.gnome.shell.extensions.arcmenu group-apps-alphabetically-list-layouts true
+org.gnome.shell.extensions.arcmenu hide-overview-on-arcmenu-open false
+org.gnome.shell.extensions.arcmenu hide-overview-on-startup false
+org.gnome.shell.extensions.arcmenu highlight-search-result-terms false
+org.gnome.shell.extensions.arcmenu hotkey-open-primary-monitor false
+org.gnome.shell.extensions.arcmenu insider-layout-extra-shortcuts [{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'org.gnome.Settings.desktop'}]
+org.gnome.shell.extensions.arcmenu keep-open-on-ctrl-click true
+org.gnome.shell.extensions.arcmenu left-panel-width 290
+org.gnome.shell.extensions.arcmenu max-search-results 5
+org.gnome.shell.extensions.arcmenu menu-arrow-rise (false, 6)
+org.gnome.shell.extensions.arcmenu menu-background-color 'rgba(30,34,40,0.34)'
+org.gnome.shell.extensions.arcmenu menu-border-color 'rgba(255,255,255,0.14)'
+org.gnome.shell.extensions.arcmenu menu-border-radius 22
+org.gnome.shell.extensions.arcmenu menu-border-width 1
+org.gnome.shell.extensions.arcmenu menu-button-active-bg-color (false, 'rgba(242,242,242,0.2)')
+org.gnome.shell.extensions.arcmenu menu-button-active-fg-color (false, 'rgb(242,242,242)')
+org.gnome.shell.extensions.arcmenu menu-button-appearance 'Icon'
+org.gnome.shell.extensions.arcmenu menu-button-bg-color (false, 'rgba(242,242,242,0.2)')
+org.gnome.shell.extensions.arcmenu menu-button-border-color (false, 'transparent')
+org.gnome.shell.extensions.arcmenu menu-button-border-radius (false, 20)
+org.gnome.shell.extensions.arcmenu menu-button-border-width (false, 3)
+org.gnome.shell.extensions.arcmenu menu-button-fg-color (false, 'rgb(242,242,242)')
+org.gnome.shell.extensions.arcmenu menu-button-hover-bg-color (false, 'rgba(242,242,242,0.15)')
+org.gnome.shell.extensions.arcmenu menu-button-hover-fg-color (false, 'rgb(242,242,242)')
+org.gnome.shell.extensions.arcmenu menu-button-icon 'resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/actions/icon-arcmenu-logo-symbolic.svg'
+org.gnome.shell.extensions.arcmenu menu-button-icon-size 20
+org.gnome.shell.extensions.arcmenu menu-button-left-click-action 'ArcMenu'
+org.gnome.shell.extensions.arcmenu menu-button-middle-click-action 'ArcMenu'
+org.gnome.shell.extensions.arcmenu menu-button-padding -1
+org.gnome.shell.extensions.arcmenu menu-button-position-offset 0
+org.gnome.shell.extensions.arcmenu menu-button-right-click-action 'ContextMenu'
+org.gnome.shell.extensions.arcmenu menu-button-text 'Apps'
+org.gnome.shell.extensions.arcmenu menu-font-size 11
+org.gnome.shell.extensions.arcmenu menu-foreground-color 'rgb(248,249,250)'
+org.gnome.shell.extensions.arcmenu menu-height 550
+org.gnome.shell.extensions.arcmenu menu-item-active-bg-color 'rgba(255,255,255,0.18)'
+org.gnome.shell.extensions.arcmenu menu-item-active-fg-color 'rgb(255,255,255)'
+org.gnome.shell.extensions.arcmenu menu-item-category-icon-size 'Default'
+org.gnome.shell.extensions.arcmenu menu-item-grid-icon-size 'Large'
+org.gnome.shell.extensions.arcmenu menu-item-hover-bg-color 'rgba(255,255,255,0.12)'
+org.gnome.shell.extensions.arcmenu menu-item-hover-fg-color 'rgb(255,255,255)'
+org.gnome.shell.extensions.arcmenu menu-item-icon-size 'Default'
+org.gnome.shell.extensions.arcmenu menu-layout 'elementary'
+org.gnome.shell.extensions.arcmenu menu-position-alignment 50
+org.gnome.shell.extensions.arcmenu menu-separator-color 'rgba(255,255,255,0.10)'
+org.gnome.shell.extensions.arcmenu menu-themes [['ArcMenu Style', 'rgba(48,48,49,0.98)', 'rgb(223,223,223)', 'rgb(60,60,60)', '1', '14', '11', 'rgba(255,255,255,0.1)', 'rgb(21,83,158)', 'rgb(255,255,255)', 'rgb(25,98,163)', 'rgb(255,255,255)'], ['Simply Dark', 'rgba(28,28,28,0.98)', 'rgb(211,218,227)', 'rgb(63,62,64)', '1', '14', '11', 'rgb(63,62,64)', 'rgba(238,238,236,0.08)', 'rgb(255,255,255)', 'rgba(228,228,226,0.15)', 'rgb(255,255,255)'], ['Dark Blue', 'rgb(30,37,41)', 'rgb(189,230,251)', 'rgb(41,50,55)', '1', '14', '11', 'rgba(99,99,98,0.56)', 'rgba(189,230,251,0.08)', 'rgb(189,230,251)', 'rgba(189,230,251,0.15)', 'rgb(189,230,251)'], ['Light Blue', 'rgb(245,247,250)', 'rgb(18,51,84)', 'rgba(18,51,84,0.2)', '1', '14', '11', 'rgba(18,51,84,0.15)', 'rgba(18,51,84,0.08)', 'rgb(18,51,84)', 'rgba(18,51,84,0.15)', 'rgb(18,51,84)']]
+org.gnome.shell.extensions.arcmenu menu-width-adjustment 0
+org.gnome.shell.extensions.arcmenu mint-layout-extra-shortcuts [{'id': 'firefox.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'org.gnome.Settings.desktop'}, {'id': 'ArcMenu_Software', 'name': 'Software'}, {'id': 'org.gnome.Nautilus.desktop'}, {'id': 'ArcMenu_Separator', 'name': 'Separator', 'icon': 'list-remove-symbolic'}, {'id': 'ArcMenu_LogOut', 'name': 'Log Out...', 'icon': 'system-log-out-symbolic'}, {'id': 'ArcMenu_Lock', 'name': 'Lock', 'icon': 'changes-prevent-symbolic'}, {'id': 'ArcMenu_PowerOff', 'name': 'Power Off...', 'icon': 'system-shutdown-symbolic'}]
+org.gnome.shell.extensions.arcmenu misc-item-icon-size 'Default'
+org.gnome.shell.extensions.arcmenu multi-lined-labels true
+org.gnome.shell.extensions.arcmenu multi-monitor false
+org.gnome.shell.extensions.arcmenu override-menu-theme true
+org.gnome.shell.extensions.arcmenu pinned-apps [{'id': 'firefox.desktop'}, {'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'gnome-extensions prefs arcmenu@arcmenu.com', 'name': 'ArcMenu Settings', 'icon': 'ArcMenu_ArcMenuIcon'}]
+org.gnome.shell.extensions.arcmenu plasma-enable-hover true
+org.gnome.shell.extensions.arcmenu pop-default-view 'Library Home'
+org.gnome.shell.extensions.arcmenu pop-folders-data @a{ss} {}
+org.gnome.shell.extensions.arcmenu position-in-panel 'Left'
+org.gnome.shell.extensions.arcmenu power-display-style 'Default'
+org.gnome.shell.extensions.arcmenu power-options [(0, true), (1, true), (2, true), (3, true), (4, false), (5, false), (6, false), (7, false)]
+org.gnome.shell.extensions.arcmenu prefs-visible-page 0
+org.gnome.shell.extensions.arcmenu quicklinks-item-icon-size 'Default'
+org.gnome.shell.extensions.arcmenu raven-position 'Left'
+org.gnome.shell.extensions.arcmenu raven-search-display-style 'Grid'
+org.gnome.shell.extensions.arcmenu recently-installed-apps @as []
+org.gnome.shell.extensions.arcmenu right-panel-width 205
+org.gnome.shell.extensions.arcmenu runner-font-size 0
+org.gnome.shell.extensions.arcmenu runner-hotkey @as []
+org.gnome.shell.extensions.arcmenu runner-hotkey-open-primary-monitor false
+org.gnome.shell.extensions.arcmenu runner-hotkey-overlay-key-enabled false
+org.gnome.shell.extensions.arcmenu runner-menu-height 400
+org.gnome.shell.extensions.arcmenu runner-menu-height-static false
+org.gnome.shell.extensions.arcmenu runner-menu-width 500
+org.gnome.shell.extensions.arcmenu runner-position 'Top'
+org.gnome.shell.extensions.arcmenu runner-search-display-style 'List'
+org.gnome.shell.extensions.arcmenu runner-searchbar-location 'Top'
+org.gnome.shell.extensions.arcmenu runner-show-settings-button true
+org.gnome.shell.extensions.arcmenu scrollbars-overlay true
+org.gnome.shell.extensions.arcmenu scrollbars-visible true
+org.gnome.shell.extensions.arcmenu scrollview-fade-effect true
+org.gnome.shell.extensions.arcmenu search-entry-border-radius (true, 18)
+org.gnome.shell.extensions.arcmenu search-hidden false
+org.gnome.shell.extensions.arcmenu search-provider-open-windows false
+org.gnome.shell.extensions.arcmenu search-provider-recent-files false
+org.gnome.shell.extensions.arcmenu searchbar-default-bottom-location 'Bottom'
+org.gnome.shell.extensions.arcmenu searchbar-default-top-location 'Top'
+org.gnome.shell.extensions.arcmenu settings-height 800
+org.gnome.shell.extensions.arcmenu settings-width 750
+org.gnome.shell.extensions.arcmenu shortcut-icon-type 'Symbolic'
+org.gnome.shell.extensions.arcmenu show-activities-button false
+org.gnome.shell.extensions.arcmenu show-bookmarks false
+org.gnome.shell.extensions.arcmenu show-category-sub-menus false
+org.gnome.shell.extensions.arcmenu show-external-devices false
+org.gnome.shell.extensions.arcmenu show-hidden-recent-files false
+org.gnome.shell.extensions.arcmenu show-recently-installed-apps false
+org.gnome.shell.extensions.arcmenu show-search-result-details false
+org.gnome.shell.extensions.arcmenu show-tooltips true
+org.gnome.shell.extensions.arcmenu show-user-avatar true
+org.gnome.shell.extensions.arcmenu sleek-layout-extra-shortcuts [{'id': 'ArcMenu_Home', 'name': 'Home', 'icon': 'ArcMenu_Home'}, {'id': 'ArcMenu_Documents', 'name': 'Documents', 'icon': 'ArcMenu_Documents'}, {'id': 'ArcMenu_Downloads', 'name': 'Downloads', 'icon': 'ArcMenu_Downloads'}, {'id': 'ArcMenu_Music', 'name': 'Music', 'icon': 'ArcMenu_Music'}, {'id': 'ArcMenu_Pictures', 'name': 'Pictures', 'icon': 'ArcMenu_Pictures'}, {'id': 'ArcMenu_Software', 'name': 'Software'}, {'id': 'org.gnome.Settings.desktop'}, {'id': 'org.gnome.Terminal.desktop'}]
+org.gnome.shell.extensions.arcmenu sleek-layout-panel-width 225
+org.gnome.shell.extensions.arcmenu unity-layout-extra-shortcuts [{'id': 'ArcMenu_Home', 'name': 'Home', 'icon': 'ArcMenu_Home'}, {'id': 'ArcMenu_Documents', 'name': 'Documents', 'icon': 'ArcMenu_Documents'}, {'id': 'ArcMenu_Downloads', 'name': 'Downloads', 'icon': 'ArcMenu_Downloads'}, {'id': 'ArcMenu_Software', 'name': 'Software'}, {'id': 'org.gnome.Nautilus.desktop'}, {'id': 'ArcMenu_Separator', 'name': 'Separator', 'icon': 'list-remove-symbolic'}, {'id': 'ArcMenu_LogOut', 'name': 'Log Out...', 'icon': 'system-log-out-symbolic'}, {'id': 'ArcMenu_Lock', 'name': 'Lock', 'icon': 'changes-prevent-symbolic'}, {'id': 'ArcMenu_PowerOff', 'name': 'Power Off...', 'icon': 'system-shutdown-symbolic'}]
+org.gnome.shell.extensions.arcmenu update-notifier-enabled true
+org.gnome.shell.extensions.arcmenu update-notifier-project-version 73
+org.gnome.shell.extensions.arcmenu vert-separator false
+org.gnome.shell.extensions.arcmenu windows-layout-extra-shortcuts [{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'org.gnome.Settings.desktop'}]
+org.gnome.shell.extensions.arcmenu windows-show-frequent-apps true
+org.gnome.shell.extensions.arcmenu windows-show-pinned-apps true
+org.gnome.shell.extensions.arcmenu zest-layout-extra-shortcuts [{'id': 'ArcMenu_Home', 'name': 'Home', 'icon': 'ArcMenu_Home'}, {'id': 'ArcMenu_Documents', 'name': 'Documents', 'icon': 'ArcMenu_Documents'}, {'id': 'ArcMenu_Downloads', 'name': 'Downloads', 'icon': 'ArcMenu_Downloads'}, {'id': 'ArcMenu_Music', 'name': 'Music', 'icon': 'ArcMenu_Music'}, {'id': 'ArcMenu_Pictures', 'name': 'Pictures', 'icon': 'ArcMenu_Pictures'}, {'id': 'ArcMenu_Software', 'name': 'Software'}, {'id': 'org.gnome.Settings.desktop'}, {'id': 'org.gnome.Terminal.desktop'}]
+org.gnome.shell.extensions.arcmenu zest-layout-panel-width 225
+org.gnome.shell.extensions.arcmenu.pinned-apps-folders pinned-apps @aa{ss} []
+
+### SCHEMA org.gnome.shell.extensions.vibe-panel
+org.gnome.shell.extensions.vibe-panel accent-color-tint false
+org.gnome.shell.extensions.vibe-panel disable-corners-on-light-theme false
+org.gnome.shell.extensions.vibe-panel enable-light-theme-tweaks true
+org.gnome.shell.extensions.vibe-panel enable-transparency true
+org.gnome.shell.extensions.vibe-panel last-used-transparency 30
+org.gnome.shell.extensions.vibe-panel panel-corner-border-width 0
+org.gnome.shell.extensions.vibe-panel panel-corners false
+org.gnome.shell.extensions.vibe-panel transparency 30
+
+### SCHEMA org.gnome.nautilus
+org.gnome.nautilus.compression default-compression-format 'zip'
+org.gnome.nautilus.icon-view captions ['none', 'none', 'none']
+org.gnome.nautilus.icon-view default-zoom-level 'medium'
+org.gnome.nautilus.list-view default-column-order ['name', 'size', 'type', 'owner', 'group', 'permissions', 'mime_type', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'date_created', 'recency', 'starred']
+org.gnome.nautilus.list-view default-visible-columns ['name', 'size', 'date_modified']
+org.gnome.nautilus.list-view default-zoom-level 'medium'
+org.gnome.nautilus.list-view use-tree-view false
+org.gnome.nautilus.preferences always-use-location-entry false
+org.gnome.nautilus.preferences click-policy 'double'
+org.gnome.nautilus.preferences date-time-format 'simple'
+org.gnome.nautilus.preferences default-folder-viewer 'icon-view'
+org.gnome.nautilus.preferences default-sort-in-reverse-order false
+org.gnome.nautilus.preferences default-sort-order 'name'
+org.gnome.nautilus.preferences fts-enabled true
+org.gnome.nautilus.preferences migrated-gtk-settings true
+org.gnome.nautilus.preferences mouse-back-button uint32 8
+org.gnome.nautilus.preferences mouse-forward-button uint32 9
+org.gnome.nautilus.preferences mouse-use-extra-buttons true
+org.gnome.nautilus.preferences open-folder-on-dnd-hover true
+org.gnome.nautilus.preferences recursive-search 'local-only'
+org.gnome.nautilus.preferences search-filter-time-type 'last_modified'
+org.gnome.nautilus.preferences show-create-link false
+org.gnome.nautilus.preferences show-delete-permanently false
+org.gnome.nautilus.preferences show-directory-item-counts 'local-only'
+org.gnome.nautilus.preferences show-hidden-files false
+org.gnome.nautilus.preferences show-image-thumbnails 'local-only'
+org.gnome.nautilus.preferences thumbnail-limit uint64 50
+org.gnome.nautilus.window-state initial-size (890, 550)
+org.gnome.nautilus.window-state initial-size-file-chooser (890, 550)
+org.gnome.nautilus.window-state maximized false
+
+### SCHEMA org.gnome.nautilus.compression
+org.gnome.nautilus.compression default-compression-format 'zip'
+
+### SCHEMA org.gnome.nautilus.icon-view
+org.gnome.nautilus.icon-view captions ['none', 'none', 'none']
+org.gnome.nautilus.icon-view default-zoom-level 'medium'
+
+### SCHEMA org.gnome.nautilus.list-view
+org.gnome.nautilus.list-view default-column-order ['name', 'size', 'type', 'owner', 'group', 'permissions', 'mime_type', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'date_created', 'recency', 'starred']
+org.gnome.nautilus.list-view default-visible-columns ['name', 'size', 'date_modified']
+org.gnome.nautilus.list-view default-zoom-level 'medium'
+org.gnome.nautilus.list-view use-tree-view false
+
+### SCHEMA org.gnome.nautilus.preferences
+org.gnome.nautilus.preferences always-use-location-entry false
+org.gnome.nautilus.preferences click-policy 'double'
+org.gnome.nautilus.preferences date-time-format 'simple'
+org.gnome.nautilus.preferences default-folder-viewer 'icon-view'
+org.gnome.nautilus.preferences default-sort-in-reverse-order false
+org.gnome.nautilus.preferences default-sort-order 'name'
+org.gnome.nautilus.preferences fts-enabled true
+org.gnome.nautilus.preferences migrated-gtk-settings true
+org.gnome.nautilus.preferences mouse-back-button uint32 8
+org.gnome.nautilus.preferences mouse-forward-button uint32 9
+org.gnome.nautilus.preferences mouse-use-extra-buttons true
+org.gnome.nautilus.preferences open-folder-on-dnd-hover true
+org.gnome.nautilus.preferences recursive-search 'local-only'
+org.gnome.nautilus.preferences search-filter-time-type 'last_modified'
+org.gnome.nautilus.preferences show-create-link false
+org.gnome.nautilus.preferences show-delete-permanently false
+org.gnome.nautilus.preferences show-directory-item-counts 'local-only'
+org.gnome.nautilus.preferences show-hidden-files false
+org.gnome.nautilus.preferences show-image-thumbnails 'local-only'
+org.gnome.nautilus.preferences thumbnail-limit uint64 50
+
+### SCHEMA org.gnome.nautilus.window-state
+org.gnome.nautilus.window-state initial-size (890, 550)
+org.gnome.nautilus.window-state initial-size-file-chooser (890, 550)
+org.gnome.nautilus.window-state maximized false
+

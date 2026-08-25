@@ -1,0 +1,7 @@
+Fedora release 44 (Forty Four)
+Fedora major: 44
+GNOME Shell 50.4
+Session type: wayland
+Current desktop: GNOME
+Kernel: 7.1.10-200.fc44.x86_64
+GNOME nautilus 50.2.2

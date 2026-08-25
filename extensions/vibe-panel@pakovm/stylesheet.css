@@ -1,0 +1,183 @@
+/* --- Base Styles for the Extension --- */
+#panel.dynamic-panel-transparent,
+#panel.dynamic-panel-transparent .panel-corner {
+    transition-duration: 250ms;
+}
+
+/* Dock-independent, full-width glass treatment for the top bar. */
+#panel.dynamic-panel-transparent {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.10);
+}
+
+#panel .panel-corner {
+    -panel-corner-border-width: 0;
+}
+
+#panel.dynamic-panel-transparent .panel-corner {
+    -panel-corner-background-color: transparent;
+}
+
+/* =================================================================== */
+/* --- Dark Theme Styles --- */
+/* =================================================================== */
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-0,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-0 .panel-corner {
+    background-color: rgba(0, 0, 0, 0.00) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-30,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-30 .panel-corner {
+    background-color: rgba(238, 242, 247, 0.16) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-50,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-50 .panel-corner {
+    background-color: rgba(0, 0, 0, 0.50) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-70,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-70 .panel-corner {
+    background-color: rgba(0, 0, 0, 0.70) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-85,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-85 .panel-corner {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-100,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-100 .panel-corner {
+    background-color: rgba(0, 0, 0, 1.00) !important;
+    background-image: none !important;
+}
+
+/* =================================================================== */
+/* --- Light Theme Styles --- */
+/* =================================================================== */
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-0,
+#panel.dynamic-panel-light.dynamic-panel-transparency-0 .panel-corner {
+    background-color: rgba(240, 240, 240, 0.00) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-30,
+#panel.dynamic-panel-light.dynamic-panel-transparency-30 .panel-corner {
+    background-color: rgba(238, 242, 247, 0.16) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-50,
+#panel.dynamic-panel-light.dynamic-panel-transparency-50 .panel-corner {
+    background-color: rgba(240, 240, 240, 0.50) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-70,
+#panel.dynamic-panel-light.dynamic-panel-transparency-70 .panel-corner {
+    background-color: rgba(240, 240, 240, 0.70) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-85,
+#panel.dynamic-panel-light.dynamic-panel-transparency-85 .panel-corner {
+    background-color: rgba(240, 240, 240, 0.85) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-100,
+#panel.dynamic-panel-light.dynamic-panel-transparency-100 .panel-corner {
+    background-color: rgba(240, 240, 240, 1.00) !important;
+    background-image: none !important;
+}
+
+/* =================================================================== */
+/* --- Accent Color Tint --- */
+/* =================================================================== */
+/* --- Accent Color Tint (Dark Theme) --- */
+/* =================================================================== */
+/* Each rule pairs the per-level transparency class with the tint class,  */
+/* so st-mix() uses the same alpha as the plain transparency rule.         */
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-0.dynamic-panel-accent-tint,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-0.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(0, 0, 0, 0.00), 0%) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-30.dynamic-panel-accent-tint,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-30.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(0, 0, 0, 0.30), 10%) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-50.dynamic-panel-accent-tint,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-50.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(0, 0, 0, 0.50), 10%) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-70.dynamic-panel-accent-tint,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-70.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(0, 0, 0, 0.70), 10%) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-85.dynamic-panel-accent-tint,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-85.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(0, 0, 0, 0.85), 10%) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-dark.dynamic-panel-transparency-100.dynamic-panel-accent-tint,
+#panel.dynamic-panel-dark.dynamic-panel-transparency-100.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(0, 0, 0, 1.00), 10%) !important;
+    background-image: none !important;
+}
+
+/* =================================================================== */
+/* --- Accent Color Tint (Light Theme) --- */
+/* =================================================================== */
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-0.dynamic-panel-accent-tint,
+#panel.dynamic-panel-light.dynamic-panel-transparency-0.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(240, 240, 240, 0.00), 0%) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-30.dynamic-panel-accent-tint,
+#panel.dynamic-panel-light.dynamic-panel-transparency-30.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(240, 240, 240, 0.30), 10%) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-50.dynamic-panel-accent-tint,
+#panel.dynamic-panel-light.dynamic-panel-transparency-50.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(240, 240, 240, 0.50), 10%) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-70.dynamic-panel-accent-tint,
+#panel.dynamic-panel-light.dynamic-panel-transparency-70.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(240, 240, 240, 0.70), 10%) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-85.dynamic-panel-accent-tint,
+#panel.dynamic-panel-light.dynamic-panel-transparency-85.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(240, 240, 240, 0.85), 10%) !important;
+    background-image: none !important;
+}
+
+#panel.dynamic-panel-light.dynamic-panel-transparency-100.dynamic-panel-accent-tint,
+#panel.dynamic-panel-light.dynamic-panel-transparency-100.dynamic-panel-accent-tint .panel-corner {
+    background-color: st-mix(-st-accent-color, rgba(240, 240, 240, 1.00), 10%) !important;
+    background-image: none !important;
+}

@@ -1,0 +1,606 @@
+2026-08-25T16:04:07-03:00 fedora gnome-shell[2846]: Running GNOME Shell (using mutter 50.4) as a Wayland display server
+2026-08-25T16:04:07-03:00 fedora gnome-shell[2846]: Thread 'KMS thread' will be using high priority scheduling
+2026-08-25T16:04:07-03:00 fedora gnome-shell[2846]: Device '/dev/dri/card1' prefers shadow buffer
+2026-08-25T16:04:07-03:00 fedora gnome-shell[2846]: Added device '/dev/dri/card1' (i915) using atomic mode setting.
+2026-08-25T16:04:07-03:00 fedora gnome-shell[2846]: Created gbm renderer for '/dev/dri/card1'
+2026-08-25T16:04:07-03:00 fedora gnome-shell[2846]: GPU /dev/dri/card1 selected primary from builtin panel presence
+2026-08-25T16:04:07-03:00 fedora gnome-shell[2846]: Obtained a high priority EGL context
+2026-08-25T16:04:07-03:00 fedora gnome-shell[2846]: Using public X11 display :0, (using unix:/tmp/.X11-unix/X1 for managed services)
+2026-08-25T16:04:07-03:00 fedora gnome-shell[2846]: Using Wayland display name 'wayland-0'
+2026-08-25T16:04:08-03:00 fedora gnome-shell[2846]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+2026-08-25T16:04:08-03:00 fedora gnome-shell[2846]: Registering session with GDM
+2026-08-25T16:04:08-03:00 fedora gnome-shell[2846]: Extension dash-to-dock@micxgx.gmail.com already installed in /home/cesar/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com. /usr/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com will not be loaded
+2026-08-25T16:04:08-03:00 fedora gnome-shell[2846]: Extension blur-my-shell@aunetx already installed in /home/cesar/.local/share/gnome-shell/extensions/blur-my-shell@aunetx. /usr/share/gnome-shell/extensions/blur-my-shell@aunetx will not be loaded
+2026-08-25T16:04:08-03:00 fedora gnome-shell[2846]: Will monitor session 2
+2026-08-25T16:04:08-03:00 fedora gnome-shell[2846]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+2026-08-25T16:04:09-03:00 fedora org.gnome.Nautilus[3576]: Connecting to org.freedesktop.Tracker3.Miner.Files
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: Type GITypeInfo of property NM.Object::client does not match return type GITypeInfo of getter get_client. Falling back to slow path
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aaf9c0 StWidget.dash-background:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8e0c0 StScrollView "dashtodockDashScrollview"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8e0c0 StScrollView "dashtodockDashScrollview"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a9e3e0 StBoxLayout.bottom:insensitive "dashtodockBoxContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8e0c0 StScrollView "dashtodockDashScrollview"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a9e3e0 StBoxLayout.bottom:insensitive "dashtodockBoxContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a9f4b0 StBoxLayout:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa7660 StButton.show-apps] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa7660 StButton.show-apps] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa8a50 Gjs_ui_iconGrid_BaseIcon.overview-icon:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa7660 StButton.show-apps] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa8a50 Gjs_ui_iconGrid_BaseIcon.overview-icon:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa9b40 StBoxLayout:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa7660 StButton.show-apps] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa8a50 Gjs_ui_iconGrid_BaseIcon.overview-icon:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa9b40 StBoxLayout:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aaae50 StBin:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa7660 StButton.show-apps] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa8a50 Gjs_ui_iconGrid_BaseIcon.overview-icon:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa9b40 StBoxLayout:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aaae50 StBin:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aadc70 StIcon.show-apps-icon:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa7660 StButton.show-apps] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa8a50 Gjs_ui_iconGrid_BaseIcon.overview-icon:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa7660 StButton.show-apps] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa8a50 Gjs_ui_iconGrid_BaseIcon.overview-icon:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa9b40 StBoxLayout:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa7660 StButton.show-apps] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa8a50 Gjs_ui_iconGrid_BaseIcon.overview-icon:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa9b40 StBoxLayout:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aaae50 StBin:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa7660 StButton.show-apps] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa8a50 Gjs_ui_iconGrid_BaseIcon.overview-icon:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa9b40 StBoxLayout:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aaae50 StBin:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aadc70 StIcon.show-apps-icon:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aaf9c0 StWidget.dash-background:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8e0c0 StScrollView "dashtodockDashScrollview"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8e0c0 StScrollView "dashtodockDashScrollview"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a961a0 StScrollBar] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8e0c0 StScrollView "dashtodockDashScrollview"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a961a0 StScrollBar] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a969e0 StBin "trough"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8e0c0 StScrollView "dashtodockDashScrollview"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a961a0 StScrollBar] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a99e50 StWidget.vhandle] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8e0c0 StScrollView "dashtodockDashScrollview"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a9e3e0 StBoxLayout.bottom:insensitive "dashtodockBoxContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8e0c0 StScrollView "dashtodockDashScrollview"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a9e3e0 StBoxLayout.bottom:insensitive "dashtodockBoxContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a9f4b0 StBoxLayout:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab3210 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer:insensitive] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53ab4450 StBoxLayout "dashtodockBox"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8c030 Gjs_dash-to-dock_micxgx_gmail_com_dash_DockDash:insensitive "dash"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8d070 StBoxLayout:insensitive "dashtodockDashContainer"] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa09a0 Gjs_dash-to-dock_micxgx_gmail_com_appIcons_DockShowAppsIcon.dash-item-container] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53aa7660 StButton.show-apps] which is not in the stage.
+2026-08-25T16:04:09-03:00 fedora gnome-shell[2846]: st_widget_get_theme_node called on the widget [0x563f53a8a920 Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock.bottom autohide:insensitive overview "dashtodockContainer"] which is not in the stage.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: GNOME Shell started at Tue Aug 25 2026 16:04:08 GMT-0300 (Horário Padrão de Brasília)
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Registering display with GDM
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: value "nan" of type 'gdouble' is invalid or out of range for property 'clip' of type 'gdouble'
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:04:10-03:00 fedora systemd[2420]: Started dbus-:1.2-org.gnome.NautilusPreviewer@0.service.
+2026-08-25T16:04:15-03:00 fedora systemd[2420]: Started app-gnome-org.mozilla.firefox-4176.scope - Application launched by gnome-shell.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:04:20-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:04:21-03:00 fedora systemd[2420]: dbus-:1.2-org.gnome.NautilusPreviewer@0.service: Consumed 393ms CPU time over 10.415s wall clock time, 78.9M memory peak.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:27-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:30-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:34-03:00 fedora systemd[2420]: Started dbus-:1.2-org.gnome.Nautilus@0.service.
+2026-08-25T16:05:34-03:00 fedora org.gnome.Nautilus[5613]: Connecting to org.freedesktop.Tracker3.Miner.Files
+2026-08-25T16:05:34-03:00 fedora systemd[2420]: Started dbus-:1.2-org.gnome.NautilusPreviewer@1.service.
+2026-08-25T16:05:49-03:00 fedora gnome-shell[2846]: libinput error: event7  - SYNA30BD:00 06CB:CE08: kernel bug: Touch jump detected and discarded.
+2026-08-25T16:05:49-03:00 fedora gnome-shell[2846]: See https://wayland.freedesktop.org/libinput/doc/1.31.3/touchpad-jumping-cursors.html for details
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:52-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:54-03:00 fedora systemd[2420]: dbus-:1.2-org.gnome.Nautilus@0.service: Consumed 1.277s CPU time over 20.149s wall clock time, 139.5M memory peak.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:55-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:05:59-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:01-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:02-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:02-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:02-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:02-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:03-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:44-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:47-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:48-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockContainer [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashToDock] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor unnamed [Gjs_dash-to-dock_micxgx_gmail_com_docking_DashSlideContainer] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor dashtodockBox [StBoxLayout] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-backgroundgroup [MetaBackgroundGroup] is on because it needs an allocation.
+2026-08-25T16:06:50-03:00 fedora gnome-shell[2846]: Can't update stage views actor bms-dash-blurred-widget [StWidget] is on because it needs an allocation.

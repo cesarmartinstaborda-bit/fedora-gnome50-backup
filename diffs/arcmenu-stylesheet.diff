@@ -1,0 +1,21 @@
+--- /home/cesar/.local/share/gnome-shell/extensions/arcmenu@arcmenu.com/stylesheet.css.pre-glass-backup	2026-05-30 22:17:40.000000000 -0300
++++ /home/cesar/.local/share/gnome-shell/extensions/arcmenu@arcmenu.com/stylesheet.css	2026-08-25 15:26:05.581395605 -0300
+@@ -64,6 +64,11 @@
+     padding-bottom: 6px;
+ }
+ 
++/* Local visual separation for the ArcMenu glass surface only. */
++.arcmenu-menu .popup-menu-content {
++    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.18);
++}
++
+ .arcmenu-plasma-button{
+     width: 90px;
+     height: 65px;
+@@ -125,4 +130,4 @@
+     background-color: rgba(255, 255, 255, 0.1);
+     margin: 0px; 
+     padding: 0px 10px;
+-}
+\ No newline at end of file
++}

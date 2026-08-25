@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.vibe-panel" path="/org/gnome/shell/extensions/vibe-panel/">
+
+        <!-- PANEL CORNERS -->
+        <key type="b" name="panel-corners">
+            <default>true</default>
+            <summary>Whether or not to have rounded corners on the bottom of the panel</summary>
+        </key>
+
+        <key type="i" name="panel-corner-border-width">
+            <default>0</default>
+            <summary>Additionnal width used for the corner</summary>
+        </key>
+        <!-- Default corner opacity removed to match panel transparency -->
+
+        <!-- DYNAMIC PANEL -->
+        <key type="b" name="enable-transparency">
+            <default>true</default>
+            <summary>Whether or not the panel transparency effect is enabled</summary>
+        </key>
+        <key name="transparency" type="i">
+            <default>50</default>
+            <summary>Panel transparency level</summary>
+        </key>
+        <key name="last-used-transparency" type="i">
+            <default>50</default>
+            <summary>Stores the last used transparency level.</summary>
+        </key>
+        <key type="b" name="accent-color-tint">
+            <default>false</default>
+            <summary>Tint the panel and corners using the system accent color</summary>
+        </key>
+
+        <!-- LIGHT THEME -->
+        <key type="b" name="enable-light-theme-tweaks">
+            <default>true</default>
+            <summary>Enable light theme tweaks (hidden from UI)</summary>
+        </key>
+        <key type="b" name="disable-corners-on-light-theme">
+            <default>false</default>
+            <summary>Disable corners when on Light theme</summary>
+        </key>
+
+    </schema>
+</schemalist>

@@ -1,0 +1,17 @@
+--- /usr/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/stylesheet.css	2026-05-01 21:00:00.000000000 -0300
++++ /home/cesar/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/stylesheet.css	2026-08-25 14:18:27.778004306 -0300
+@@ -16,9 +16,13 @@
+   padding: 0px; }
+   #dashtodockContainer.bottom #dash .dash-background {
+     margin: 0;
+-    margin-bottom: 4px;
++    /* Local, Dock-only glass treatment: keep the reveal actor on the screen
++       edge while floating only the visible background above it. */
++    margin-bottom: 9px;
+     padding: 0;
+     border-radius: 24px;
++    border: 1px solid rgba(255, 255, 255, 0.16);
++    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.14);
+     spacing: 6px; }
+   #dashtodockContainer.bottom #dash .dash-separator {
+     background-color: rgba(255, 255, 255, 0.1);

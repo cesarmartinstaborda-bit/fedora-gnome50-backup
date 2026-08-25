@@ -1,0 +1,97 @@
+vibe-panel@pakovm
+  Name: Vibe Panel
+  Description: A panel that vibes with your shell.
+
+Contains code from:
+1) Transparent Top Bar (Adjustable transparency)
+2) Panel corners
+  Path: /home/cesar/.local/share/gnome-shell/extensions/vibe-panel@pakovm
+  URL: https://github.com/pakovm-git/vibe-panel
+  Version: 6
+  Enabled: Yes
+  State: ACTIVE
+
+dash-to-dock@micxgx.gmail.com
+  Name: Dash to Dock
+  Description: A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+  Path: /home/cesar/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
+  URL: https://micheleg.github.io/dash-to-dock/
+  Original author: micxgx@gmail.com
+  Version: 105
+  Enabled: Yes
+  State: ACTIVE
+
+blur-my-shell@aunetx
+  Name: Blur my Shell
+  Description: Adds a blur look to different parts of the GNOME Shell, including the top panel, dash and overview.
+
+You can support my work by sponsoring me on:
+- github: https://github.com/sponsors/aunetx
+- ko-fi: https://ko-fi.com/aunetx
+
+If you use Ubuntu, you may want to change the radius of the corner effect for Dash-to-Dock in preferences, else you may see unpleasantly mixed radii in your dock.
+
+Note: if the extension shows an error after updating, please make sure to restart your session to see if it persists. This is due to a bug in gnome shell, which I can't fix by myself.
+  Path: /home/cesar/.local/share/gnome-shell/extensions/blur-my-shell@aunetx
+  URL: https://github.com/aunetx/blur-my-shell
+  Version: 72
+  Enabled: Yes
+  State: ACTIVE
+
+arcmenu@arcmenu.com
+  Name: ArcMenu
+  Description: Application Menu Extension for GNOME
+  Path: /home/cesar/.local/share/gnome-shell/extensions/arcmenu@arcmenu.com
+  URL: https://gitlab.com/arcmenu/ArcMenu
+  Version: 69.2 (73)
+  Enabled: Yes
+  State: ACTIVE
+
+apps-menu@gnome-shell-extensions.gcampax.github.com
+  Name: Apps Menu
+  Description: Add a category-based menu for apps.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.3
+  Enabled: No
+  State: INITIALIZED
+
+background-logo@fedorahosted.org
+  Name: Background Logo
+  Description: Overlay a tasteful logo on the background to enhance the user experience
+  Path: /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org
+  URL: https://forge.fedoraproject.org/workstation/background-logo-extension
+  Version: 50.1
+  Enabled: Yes
+  State: ACTIVE
+
+launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  Name: Launch New Instance
+  Description: Always launch a new instance when clicking in the dash or the application view.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.3
+  Enabled: No
+  State: INITIALIZED
+
+places-menu@gnome-shell-extensions.gcampax.github.com
+  Name: Places Status Indicator
+  Description: Add a menu for quickly navigating places in the system.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/places-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.3
+  Enabled: No
+  State: INITIALIZED
+
+window-list@gnome-shell-extensions.gcampax.github.com
+  Name: Window List
+  Description: Display a window list at the bottom of the screen.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.3
+  Enabled: No
+  State: INITIALIZED

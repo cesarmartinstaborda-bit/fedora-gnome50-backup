@@ -1,0 +1,12 @@
+GTK theme: 'Adwaita'
+Color scheme: 'default'
+Shell theme: GNOME Shell padrão (nenhuma extensão User Themes habilitada)
+Icon theme: 'Adwaita'
+Cursor theme: 'Adwaita'
+Font: 'Adwaita Sans 11'
+Document font: 'Adwaita Sans 12'
+Monospace font: 'Adwaita Mono 11'
+Titlebar font: 'Adwaita Sans Bold 11'
+Wallpaper light: 'file:///usr/share/backgrounds/f44/default/f44-01-day.jxl'
+Wallpaper dark: 'file:///usr/share/backgrounds/f44/default/f44-01-night.jxl'
+Button layout: 'appmenu:minimize,maximize,close'

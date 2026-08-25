@@ -1,0 +1,1 @@
+Nenhum backup original correspondente foi localizado; diff não pode ser gerado sem inventar uma base.

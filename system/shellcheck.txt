@@ -1,0 +1,1 @@
+shellcheck não instalado; validação bash -n concluída.
